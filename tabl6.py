@@ -1,0 +1,21 @@
+f1 = open("7.txt","w")
+f2 = open("8.txt","w")
+f3 = open("9.txt","w")
+f4 = open("10.txt","w")
+start = int(input("Enter starting number: "))
+end = int(input("Enter ending number: "))
+
+for j in range(start, end+1, 1):
+    for i in range(0,11,1):
+        f1.write(f"{j} * {i} = {j*i}\n")
+        f2.write(f"{j} * {i} = {j*i}\n")
+        f3.write(f"{j} * {i} = {j*i}\n")
+        f4.write(f"{j} * {i} = {j*i}\n")
+    f1.write("\n")
+    f2.write("\n")
+    f3.write("\n")
+    f4.write("\n")
+f1.close()
+f2.close()
+f3.close()
+f4.close()
