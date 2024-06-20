@@ -1,3 +1,4 @@
-8 kilometres = 5 miles
+8 kilometers = 5 miles
 100 centimeters = 1 meter
-4.5 litres = 1 gallon
+4.5 liters = 1 gallon
+1 USD = 84 INR
